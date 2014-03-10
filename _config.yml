@@ -3,12 +3,7 @@ markdown:         redcarpet
 pygments:         true
 
 # Permalinks
-permalink:        pretty
-
+permalink:        none
 paginate:         1
 
-# Custom vars
-version:          1.0.0
-
-github:
-  repo:           https://github.com/poole/poole
+exclude: ['README.md', '.gitignore']

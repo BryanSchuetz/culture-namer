@@ -2,7 +2,9 @@
 title:            'Default Site-Wide Title'
 tagline:          'Default Site-Wide Tagline'
 description:      'Project Starter Template for Jekyll'
-
 author:
   name:           'Bryan Schuetz'
   url:            http://distressignal.com
+github:
+  repo:           https://github.com/BryanSchuetz/poole-frameless
+version: 0.1
