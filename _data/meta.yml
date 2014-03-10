@@ -1,0 +1,8 @@
+# Setup - variables available at site.title, site.tagline, etc.
+title:            'Default Site-Wide Title'
+tagline:          'Default Site-Wide Tagline'
+description:      'Project Starter Template for Jekyll'
+
+author:
+  name:           'Bryan Schuetz'
+  url:            http://distressignal.com
