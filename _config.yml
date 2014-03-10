@@ -2,12 +2,12 @@
 markdown:         redcarpet
 pygments:         true
 
-# Permalinks
+destination:      ./build
 permalink:        pretty
 paginate:         1
 
-exclude: ['README.md', '.gitignore']
+exclude:          ['README.md', '.gitignore']
 
 # Sass support via Jekyll 2.0
 sass:
-    sass_dir: public/_sass
+    sass_dir:     assets/_sass

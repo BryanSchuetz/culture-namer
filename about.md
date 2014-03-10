@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-<p class="message">
+<p>
 An About page! Look at that. With pretty permalinks turned on, Jekyll automagically turns this .md file at root into an index.html file in a directory of the same name, for nice clean-looking extension free URLs.
 </p>
 
