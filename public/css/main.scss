@@ -1,3 +1,7 @@
+---
+---
+@import "variables";
+@import "syntax";
 /*
  *                        ___
  *                       /\_ \
@@ -334,7 +338,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: $emphasis;
 }
 .page-title,
 .post-title {

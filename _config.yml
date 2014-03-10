@@ -7,3 +7,7 @@ permalink:        none
 paginate:         1
 
 exclude: ['README.md', '.gitignore']
+
+# Sass support via Jekyll 2.0
+sass:
+    sass_dir: public/_sass
