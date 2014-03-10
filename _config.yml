@@ -3,7 +3,7 @@ markdown:         redcarpet
 pygments:         true
 
 # Permalinks
-permalink:        none
+permalink:        pretty
 paginate:         1
 
 exclude: ['README.md', '.gitignore']
