@@ -1,4 +1,7 @@
 module.exports = function(grunt) {
+  grunt.loadNpmTasks('grunt-shell');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.registerTask('default', ['shell']);
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         shell: {
@@ -8,15 +11,16 @@ module.exports = function(grunt) {
         },
         watch: {
             files: [
-                '_includes/*.html',
-                '_layouts/*.html',
-                '_posts/*.md',
-                '_config.yml',
-                'index.html',
-                'assets/css/main.scss',
-                'assets/_sass/*.scss',
-                '_data/*.yml',
-                '*.md'
+            'index.html',
+            '_includes/*.html',
+            '_layouts/*.html',
+            '_posts/*.md',
+            '_config.yml',
+            'index.html',
+            'assets/css/main.scss',
+            'assets/_sass/*.scss',
+            '_data/*.yml',
+            '*.md'
             ],
             tasks: ['shell:jekyllBuild'],
             options: {
@@ -26,7 +30,4 @@ module.exports = function(grunt) {
             }
         }
     });
-    grunt.loadNpmTasks('grunt-shell');
-    grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.registerTask('default', ['shell']);
 };
