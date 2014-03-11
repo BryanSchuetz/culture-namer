@@ -1,9 +1,8 @@
 module.exports = function(grunt) {
-    //All configuration goes here
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     shell: {
-      //Shell onfiguration
+      //Shell configuration
       jekyllBuild: {
         command: 'jekyll build'
       }
@@ -30,9 +29,9 @@ module.exports = function(grunt) {
       tasks: ['shell:jekyllBuild']
     }
   });
-  //Where we tell Grunt we plan to use this plug-in
+  //Required plugins
   grunt.loadNpmTasks('grunt-shell');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  //Where we tell Grunt what to do when we type "grunt"
-  grunt.registerTask('default', ['shell']);
+  //What task to run at the default "grunt"
+  grunt.registerTask('default', ['watch']);
 };
