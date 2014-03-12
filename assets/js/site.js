@@ -1,4 +1,4 @@
 ---
 ---
 
-{% include search.js %}
+{% include _jsmods/search.js %}
