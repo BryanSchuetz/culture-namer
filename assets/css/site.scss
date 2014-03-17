@@ -95,7 +95,9 @@ html {
   Zoomed in above 600 px
 */
 @media screen and (min-width: 37.5em) {
-
+  .wrapper{
+    @include width(7);
+  }
 }
 /*
   Widescreen layout 
@@ -103,7 +105,9 @@ html {
   Zoomed in above 912 px
 */
 @media screen and (min-width: 57em) {
-
+  .wrapper{
+    @include width(10);
+  }
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
