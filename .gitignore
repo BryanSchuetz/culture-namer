@@ -1,8 +1,6 @@
 # Ignore docs files
 _gh_pages
-_site
 .ruby-version
-.sass-cache/
 # Numerous always-ignore extensions
 *.diff
 *.err
@@ -38,4 +36,6 @@ validation-status.json
 validation-report.json
 
 # Folders to ignore
-node_modules
+node_modules/
+.sass-cache/
+build/
