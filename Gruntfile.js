@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     shell: {
       //Shell configuration
       jekyllBuild: {
-        command: 'jekyll build'
+        command: 'build --config _altconfig.yml'
       }
     },
     watch: {
