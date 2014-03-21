@@ -1,4 +1,5 @@
-##### Using this _altconfig for local development passed via Grunt with jekyll build --config _altconfig.yml####
+##### Using this _altconfig for local development passed via Grunt with jekyll build --config _altconfig.yml
+#### Remember when pushing to gh-pages run build directly to use the proper config file
 
 # Dependencies
 markdown:         redcarpet
