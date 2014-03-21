@@ -11,7 +11,7 @@ exclude:          ["README.md", ".gitignore", "package.json", "node_modules", "G
 sass:
   sass_dir:     assets/_sass
 # Set baseurl for gh-pages
-baseurl: /poole-frameless
+baseurl:        /poole-frameless
 prose:
   media:        assets/images
   metadata:
