@@ -1,6 +1,5 @@
 # Ignore docs files
 build/
-_altconfig.yml
 _gh_pages
 .ruby-version
 # Numerous always-ignore extensions
