@@ -9,6 +9,8 @@ exclude:          ["README.md", ".gitignore", "package.json", "node_modules", "G
 # Sass support via Jekyll 2.0
 sass:
   sass_dir:     assets/_sass
+# Set baseurl for gh-pages
+baseurl: /poole-frameless
 prose:
   media:        assets/images
   metadata:
