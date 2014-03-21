@@ -1,4 +1,5 @@
 # Ignore docs files
+build/
 _gh_pages
 .ruby-version
 # Numerous always-ignore extensions
