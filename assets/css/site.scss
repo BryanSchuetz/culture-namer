@@ -22,7 +22,7 @@
  */
 
 .wrapper{
-  @include width(5);
+  @include width(4);
   margin: auto;
 }
 //—————————————————————//
@@ -34,6 +34,7 @@
   Zoomed out below 320 px
 */
 @media screen and (min-width: 15em) {
+
   body {
     color: #515151;
     background-color: #fff;

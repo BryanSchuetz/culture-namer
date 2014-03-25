@@ -3,6 +3,9 @@ html {
   line-height: 1.5;
   font-size: 10px;
 }
+body{
+  font-size: 1.3rem;
+}
 a {
   color: #268bd2;
   text-decoration: none;
@@ -38,7 +41,6 @@ h4, h5, h6 {
 /* Body text */
 p {
   margin-bottom: 1rem;
-  font-size: 1.3rem
 }
 .lead {
   font-size: 1.5rem;
@@ -46,6 +48,12 @@ p {
 }
 .message{
   font-size: 1.2rem;
+}
+blockquote{
+  font-size: 1.3rem;
+  p{
+    margin-top: 0;
+  }
 }
 strong {
   color: #303030;
