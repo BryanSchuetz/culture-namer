@@ -1,7 +1,7 @@
 #### Remember when pushing to gh-pages run build directly to use the proper config file
 # Dependencies
 markdown:         redcarpet
-highlighter:      true
+highlighter:      pygments
 destination:      ./build
 permalink:        pretty
 paginate:         1

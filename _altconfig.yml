@@ -3,7 +3,7 @@
 
 # Dependencies
 markdown:         redcarpet
-highlighter:      true
+highlighter:      pygments
 destination:      ./build
 permalink:        pretty
 paginate:         1

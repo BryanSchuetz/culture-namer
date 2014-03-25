@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
-html,
-body {
+* {
   margin: 0;
   padding: 0;
+}
+ul, ol, dl{
+  margin-left: 2rem;
+  li{
+    list-style-position: outside;
+  }
 }
