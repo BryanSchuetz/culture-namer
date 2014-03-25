@@ -5,6 +5,7 @@
 @import "reset";
 @import "typesetting";
 @import "syntax";
+@import "bourbon/bourbon";
 
 // A number of these defaults inherited from [Poole](http://getpoole.com/)
 
@@ -33,9 +34,6 @@
   Zoomed out below 320 px
 */
 @media screen and (min-width: 15em) {
-  html{
-    font-size: 12px;
-  }
   body {
     color: #515151;
     background-color: #fff;
@@ -162,7 +160,8 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 1rem;
   padding: 1rem;
   color: #717171;
-  background-color: #f9f9f9;
+  background-color: lighten(#FA9A4B, 32%);
+  border-radius: 5px;
 }
 
 //—————————————————//
