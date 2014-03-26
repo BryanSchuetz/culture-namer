@@ -1,4 +1,4 @@
-# Setup - variables available at site.title, site.tagline, etc.
+# Setup - variables available at site.data.meta.title, site.data.meta.tagline, etc.
 title:            'Default Site-Wide Title'
 tagline:          'Default Site-Wide Tagline'
 description:      'Project Starter Template for Jekyll'
