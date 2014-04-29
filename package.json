@@ -1,9 +1,0 @@
-{
-  "name": "poole-frameless",
-  "description": "Jekyll Project Template",
-  "devDependencies": {
-    "grunt": "~0.4.3",
-    "grunt-contrib-watch": "git://github.com/gruntjs/grunt-contrib-watch",
-    "grunt-shell": "~0.6.4"
-  }
-}
