@@ -1,4 +1,4 @@
-guard 'jekyll-plus', :config => ['_altconfig.yml'] do
+guard 'rake', :task => 'build' do
   watch('index.html')
   watch(%r{^_includes/.+\.html})
   watch(%r{^_includes/_jsmods/.+\.js})
