@@ -5,7 +5,7 @@ highlighter:      pygments
 destination:      ./build
 permalink:        pretty
 paginate:         1
-exclude:          ["README.md", ".gitignore", "package.json", "node_modules", "Gruntfile.js", ".DS_Store", "punchlist.md"]
+exclude:          ["README.md", ".gitignore", "Guardfile", "Rakefile", "Gemfile", "Gemfile.lock", ".DS_Store", "punchlist.md"]
 
 # Sass support via Jekyll 2.0
 sass:
@@ -24,4 +24,4 @@ prose:
             - name: "News"
               value: "news"
             - name: "Story"
-              value: "story"              
+              value: "story"
