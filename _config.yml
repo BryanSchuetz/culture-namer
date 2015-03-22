@@ -14,7 +14,7 @@ collections:
 sass:
   sass_dir:     assets/_sass
 # Set baseurl for gh-pages
-baseurl:        /poole-frameless
+baseurl:        /culture-namer
 prose:
   media:        assets/images
   metadata:
