@@ -30,17 +30,22 @@
   display: block;
   margin: 0 auto;
   width: 50%;
-  padding: 1rem;
+  padding: .8rem;
   border-radius: 4px;
-  border: 2px solid #eee;
+  border: 2px solid #268bd2;
+  color: #268bd2;
+  background-color: white;
+  @include transition(all 0.4s);
 }
 .ship-generator-link:hover {
-  background-color: #f5f5f5;
+  color: white;
+  background-color: #268bd2;
   text-decoration: none;
+  @include transition(all 0.4s);
 }
 .note{
   border-radius: 4px;
-  padding: 3px 4px;
+  padding: 4px 5px;
   background-color: #C87F5A;
   color: white;  
 }
