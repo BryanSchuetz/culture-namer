@@ -8,7 +8,10 @@ destination:      ./build
 permalink:        pretty
 paginate:         1
 exclude:          ["README.md", ".gitignore", "Guardfile", "Rakefile", "Gemfile", "Gemfile.lock", ".DS_Store", "punchlist.md"]
-
+collections:
+  ships:
+    output: true
+    permalink: /ships/:name/
 # Sass support via Jekyll 2.0
 sass:
   sass_dir:     assets/_sass
