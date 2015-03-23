@@ -4,4 +4,10 @@
 
 ships = []
 
-ships.push()
+{% for ship in site.ships %}
+  ships.push("{{ ship.name }}")
+{% endfor %}
+
+name = ships.sample
+
+puts name
