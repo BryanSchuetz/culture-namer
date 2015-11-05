@@ -11,3 +11,4 @@ collections:
     permalink: /ships/:name/
 sass:
   sass_dir:     assets/_sass
+destination:  ./build
