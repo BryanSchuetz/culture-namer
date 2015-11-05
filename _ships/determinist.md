@@ -1,8 +1,9 @@
 ---
+title: Determinist
 layout: ship
 name: Determinist
 type-abrev: GSV
-type-long:  General Systems Vehicle
+type-long: General Systems Vehicle
 book: Consider Phlebas
 ---
 

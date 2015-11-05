@@ -1,8 +1,9 @@
 ---
+title: Limiting Factor
 layout: ship
 name: Limiting Factor
 type-abrev: GOU
-type-long:  General Offensive Unit
+type-long: General Offensive Unit
 book: The Player of Games
 ---
 

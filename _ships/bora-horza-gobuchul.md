@@ -1,8 +1,9 @@
 ---
+title: Bora Horza Gobuchul
 layout: ship
 name: Bora Horza Gobuchul
 type-abrev: GSV
-type-long:  General Systems Vehicle
+type-long: General Systems Vehicle
 book: Consider Phlebas
 ---
 

@@ -1,8 +1,9 @@
 ---
+title: Congenital Optimist
 layout: ship
 name: Congenital Optimist
 type-abrev: GSV
-type-long:  General Services Vehicle
+type-long: General Services Vehicle
 book: Use of Weapons
 ---
 

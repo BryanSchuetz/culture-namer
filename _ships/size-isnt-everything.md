@@ -1,8 +1,9 @@
 ---
+title: Size Isnt Everything
 layout: ship
-name: "Size Isn't Everything"
+name: Size Isn't Everything
 type-abrev: GSV
-type-long:  General Systems Vehicle
+type-long: General Systems Vehicle
 book: Use of Weapons
 ---
 

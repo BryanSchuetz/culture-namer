@@ -1,8 +1,9 @@
 ---
+title: Eschatologist
 layout: ship
 name: Eschatologist
 type-abrev: GSV
-type-long:  General Systems Vehicle
+type-long: General Systems Vehicle
 book: Consider Phlebas
 ---
 

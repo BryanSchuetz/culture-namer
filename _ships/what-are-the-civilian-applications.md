@@ -1,8 +1,9 @@
 ---
+title: What Are The Civilian Applications
 layout: ship
 name: What Are The Civilian Applications
 type-abrev: GSV
-type-long:  General Systems Vehicle
+type-long: General Systems Vehicle
 book: Use of Weapons
 ---
 
