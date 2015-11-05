@@ -1,7 +1,6 @@
 ---
-layout: page
 title: About
-published: true
+layout: page
 ---
 
 <p>
