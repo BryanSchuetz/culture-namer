@@ -7,6 +7,9 @@ collections:
     title: Ships
     output: true
     permalink: "/ships/:name/"
+  books:
+    title: Books
+    output: false
   uploads:
     title: Uploads
     output: true

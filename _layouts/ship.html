@@ -5,17 +5,17 @@ layout: default
 <div class="post">
   <h1 class="post-title">{{ page.name }}</h1>
   <p>This ship first appeared in in the book <strong><em>
-  {% for book in site.data.books %}
+  {% for book in site.books %}
     {% if book.name == page.book %}
       <a href="{{ book.booklink }}">{{ page.book }}</a>
     {% endif %}
   {% endfor %}
   </em></strong>—the ship is a <strong>{{ page.type-long }} ({{ page.type-abrev }})</strong>.
-  {% for shiptype in site.data.shiptypes %} 
+  {% for shiptype in site.data.shiptypes %}
     {% if shiptype.type == page.type-abrev %}
       {{ shiptype.description }}
     {% endif %}
-  {% endfor %} 
+  {% endfor %}
   </p>
   {{ content }}
 </div>
