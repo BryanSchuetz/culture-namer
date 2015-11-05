@@ -6,3 +6,8 @@ collections:
   uploads:
     title: Uploads
     output: true
+  ships:
+    output: true
+    permalink: /ships/:name/
+sass:
+  sass_dir:     assets/_sass

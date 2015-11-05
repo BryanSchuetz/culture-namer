@@ -1,0 +1,617 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, ol, dl {
+  margin-left: 2rem; }
+  ul li, ol li, dl li {
+    list-style-position: outside; }
+
+html {
+  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 10px; }
+
+body {
+  font-size: 1.3rem; }
+
+a {
+  color: #268bd2;
+  text-decoration: none; }
+
+/* `:focus` is linked to `:hover` for basic accessibility */
+a:hover,
+a:focus {
+  text-decoration: underline; }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5em;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #313131;
+  text-rendering: optimizeLegibility; }
+
+h1 {
+  font-size: 2rem; }
+
+h2 {
+  font-size: 1.8rem; }
+
+h3 {
+  font-size: 1.6rem; }
+
+h4, h5, h6 {
+  font-size: 1.3rem;
+  font-weight: 700; }
+
+/* Body text */
+p {
+  margin-bottom: 1rem; }
+
+.lead {
+  font-size: 1.5rem;
+  font-weight: 300; }
+
+.message {
+  font-size: 1.2rem; }
+
+blockquote {
+  font-size: 1.3rem; }
+  blockquote p {
+    margin-top: 0; }
+
+strong {
+  color: #303030; }
+
+.footer p {
+  font-size: .9rem; }
+
+/* Lists */
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+dt {
+  font-weight: bold; }
+
+dd {
+  margin-bottom: .5rem; }
+
+/* Code */
+code,
+pre {
+  font-family: Menlo, Monaco, "Courier New", monospace; }
+
+.lineno {
+  display: inline-block;
+  padding-right: .5rem;
+  border-right: 1px solid #e5e5e5;
+  color: #BFBFBF;
+  background-color: #f1f1f1; }
+
+code {
+  padding: .1em .5em;
+  color: #bf616a;
+  background-color: #f1f1f1;
+  border-radius: 3px; }
+
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  line-height: 1.4;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f1f1f1; }
+
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent; }
+
+/* Pygments via Jekyll */
+.highlight {
+  margin-bottom: 1rem;
+  border-radius: 4px; }
+
+.highlight pre {
+  margin-bottom: 0; }
+
+/* Gist via GitHub Pages */
+.gist .gist-file {
+  font-family: Menlo, Monaco, "Courier New", monospace !important; }
+
+.gist .markdown-body {
+  padding: 15px; }
+
+.gist pre {
+  padding: 0;
+  background-color: transparent; }
+
+.gist .gist-file .gist-data {
+  font-size: .8rem !important;
+  line-height: 1.4; }
+
+.gist code {
+  padding: 0;
+  color: inherit;
+  background-color: transparent;
+  border-radius: 0; }
+
+.hll {
+  background-color: #ffffcc; }
+
+/*{ background: #f0f3f3; }*/
+.c {
+  color: #999; }
+
+/* Comment */
+.err {
+  color: #AA0000;
+  background-color: #FFAAAA; }
+
+/* Error */
+.k {
+  color: #006699; }
+
+/* Keyword */
+.o {
+  color: #555555; }
+
+/* Operator */
+.cm {
+  color: #0099FF;
+  font-style: italic; }
+
+/* Comment.Multiline */
+.cp {
+  color: #009999; }
+
+/* Comment.Preproc */
+.c1 {
+  color: #999; }
+
+/* Comment.Single */
+.cs {
+  color: #999; }
+
+/* Comment.Special */
+.gd {
+  background-color: #FFCCCC;
+  border: 1px solid #CC0000; }
+
+/* Generic.Deleted */
+.ge {
+  font-style: italic; }
+
+/* Generic.Emph */
+.gr {
+  color: #FF0000; }
+
+/* Generic.Error */
+.gh {
+  color: #003300; }
+
+/* Generic.Heading */
+.gi {
+  background-color: #CCFFCC;
+  border: 1px solid #00CC00; }
+
+/* Generic.Inserted */
+.go {
+  color: #AAAAAA; }
+
+/* Generic.Output */
+.gp {
+  color: #000099; }
+
+/* Generic.Prompt */
+/* Generic.Strong */
+.gu {
+  color: #003300; }
+
+/* Generic.Subheading */
+.gt {
+  color: #99CC66; }
+
+/* Generic.Traceback */
+.kc {
+  color: #006699; }
+
+/* Keyword.Constant */
+.kd {
+  color: #006699; }
+
+/* Keyword.Declaration */
+.kn {
+  color: #006699; }
+
+/* Keyword.Namespace */
+.kp {
+  color: #006699; }
+
+/* Keyword.Pseudo */
+.kr {
+  color: #006699; }
+
+/* Keyword.Reserved */
+.kt {
+  color: #007788; }
+
+/* Keyword.Type */
+.m {
+  color: #FF6600; }
+
+/* Literal.Number */
+.s {
+  color: #d44950; }
+
+/* Literal.String */
+.na {
+  color: #4f9fcf; }
+
+/* Name.Attribute */
+.nb {
+  color: #336666; }
+
+/* Name.Builtin */
+.nc {
+  color: #00AA88; }
+
+/* Name.Class */
+.no {
+  color: #336600; }
+
+/* Name.Constant */
+.nd {
+  color: #9999FF; }
+
+/* Name.Decorator */
+.ni {
+  color: #999999; }
+
+/* Name.Entity */
+.ne {
+  color: #CC0000; }
+
+/* Name.Exception */
+.nf {
+  color: #CC00FF; }
+
+/* Name.Function */
+.nl {
+  color: #9999FF; }
+
+/* Name.Label */
+.nn {
+  color: #00CCFF; }
+
+/* Name.Namespace */
+.nt {
+  color: #2f6f9f; }
+
+/* Name.Tag */
+.nv {
+  color: #003333; }
+
+/* Name.Variable */
+.ow {
+  color: #000000; }
+
+/* Operator.Word */
+.w {
+  color: #bbbbbb; }
+
+/* Text.Whitespace */
+.mf {
+  color: #FF6600; }
+
+/* Literal.Number.Float */
+.mh {
+  color: #FF6600; }
+
+/* Literal.Number.Hex */
+.mi {
+  color: #FF6600; }
+
+/* Literal.Number.Integer */
+.mo {
+  color: #FF6600; }
+
+/* Literal.Number.Oct */
+.sb {
+  color: #CC3300; }
+
+/* Literal.String.Backtick */
+.sc {
+  color: #CC3300; }
+
+/* Literal.String.Char */
+.sd {
+  color: #CC3300;
+  font-style: italic; }
+
+/* Literal.String.Doc */
+.s2 {
+  color: #CC3300; }
+
+/* Literal.String.Double */
+.se {
+  color: #CC3300; }
+
+/* Literal.String.Escape */
+.sh {
+  color: #CC3300; }
+
+/* Literal.String.Heredoc */
+.si {
+  color: #AA0000; }
+
+/* Literal.String.Interpol */
+.sx {
+  color: #CC3300; }
+
+/* Literal.String.Other */
+.sr {
+  color: #33AAAA; }
+
+/* Literal.String.Regex */
+.s1 {
+  color: #CC3300; }
+
+/* Literal.String.Single */
+.ss {
+  color: #FFCC33; }
+
+/* Literal.String.Symbol */
+.bp {
+  color: #336666; }
+
+/* Name.Builtin.Pseudo */
+.vc {
+  color: #003333; }
+
+/* Name.Variable.Class */
+.vg {
+  color: #003333; }
+
+/* Name.Variable.Global */
+.vi {
+  color: #003333; }
+
+/* Name.Variable.Instance */
+.il {
+  color: #FF6600; }
+
+/* Literal.Number.Integer.Long */
+.css .o,
+.css .o + .nt,
+.css .nt + .nt {
+  color: #999; }
+
+/*
+ * Contents
+ *
+ * Media Queries
+ * Misc
+ * Container
+ * Masthead
+ * Posts and pages
+ * Pagination
+ */
+.wrapper {
+  width: 264px;
+  margin: auto; }
+
+.ship-generator-link {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding: .8rem;
+  border-radius: 4px;
+  border: 2px solid #268bd2;
+  color: #268bd2;
+  background-color: white;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s; }
+
+.ship-generator-link:hover {
+  color: white;
+  background-color: #268bd2;
+  text-decoration: none;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s; }
+
+.note {
+  border-radius: 4px;
+  padding: 4px 5px;
+  background-color: #C87F5A;
+  color: white; }
+
+/*
+  Mobile layout 
+  240–479 px
+  Zoomed out below 320 px
+*/
+@media screen and (min-width: 15em) {
+  body {
+    color: #515151;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%; } }
+/*
+  Wide mobile layout 
+  480-767 px
+  Zoomed in above 480 px
+*/
+@media screen and (min-width: 30em) {
+  .wrapper {
+    width: 408px; }
+
+  html {
+    font-size: 14px; }
+
+  blockquote {
+    padding-right: 5rem;
+    padding-left: 1.25rem; } }
+/*
+  Tablet layout 
+  600-911 px
+  Zoomed in above 600 px
+*/
+@media screen and (min-width: 37.5em) {
+  .wrapper {
+    width: 552px; }
+
+  html {
+    font-size: 16px; } }
+/*
+  Widescreen layout 
+  912-1887 px
+  Zoomed in above 912 px
+*/
+@media screen and (min-width: 57em) {
+  .wrapper {
+    width: 696px; }
+
+  html {
+    font-size: 18px; } }
+hr {
+  position: relative;
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff; }
+
+abbr {
+  font-size: 85%;
+  font-weight: bold;
+  color: #555;
+  text-transform: uppercase; }
+
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted #e5e5e5; }
+
+/* Quotes */
+blockquote {
+  padding: .5rem 1rem;
+  margin: .8rem 0;
+  color: #7a7a7a;
+  border-left: .25rem solid #e5e5e5; }
+
+blockquote p:last-child {
+  margin-bottom: 0; }
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 0 1rem;
+  border-radius: 5px; }
+
+/* Tables */
+table {
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse; }
+
+td,
+th {
+  padding: .25rem .5rem;
+  border: 1px solid #e5e5e5; }
+
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9; }
+
+/* Alerts */
+.message {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: #717171;
+  background-color: #fef3ea;
+  border-radius: 5px; }
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+.masthead {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem; }
+
+.masthead-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #505050; }
+
+.masthead-title a {
+  color: #505050; }
+
+.masthead-title small {
+  font-size: 75%;
+  font-weight: 400;
+  color: #c0c0c0;
+  letter-spacing: 0;
+  display: block; }
+
+.page,
+.post {
+  margin-bottom: 1em; }
+
+/* Blog post or page title */
+.page-title,
+.post-title,
+.post-title a {
+  color: #313437; }
+
+.page-title,
+.post-title {
+  margin-top: 0; }
+
+/* Meta data line below post title */
+.post-date {
+  display: block;
+  margin-top: -.5rem;
+  margin-bottom: 1rem;
+  color: #9a9a9a; }
+
+/* Related posts */
+.related {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid #eee; }
+
+.related-posts {
+  padding-left: 0;
+  list-style: none; }
+
+.related-posts h3 {
+  margin-top: 0; }
+
+.related-posts li small {
+  font-size: 75%;
+  color: #999; }
+
+.related-posts li a:hover {
+  color: #268bd2;
+  text-decoration: none; }
+
+.related-posts li a:hover small {
+  color: inherit; }
