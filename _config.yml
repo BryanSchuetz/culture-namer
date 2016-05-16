@@ -3,17 +3,20 @@ title: Culture Namer
 url: http://culture-namer.siteleaf.net
 timezone: UTC
 collections:
+  books:
+    title: Books
+    output: false
+  posts:
+    title: Posts
+    output: true
   ships:
     title: Ships
     output: true
     permalink: "/ships/:name/"
-  books:
-    title: Books
-    output: false
   uploads:
     title: Uploads
     output: true
 sass:
   sass_dir: assets/_sass
 destination: "./build"
-baseurl: ""
+baseurl: ''
