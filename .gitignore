@@ -26,7 +26,7 @@ nbproject
 *.sublime-project
 *.sublime-workspace
 .idea
-
+build
 # Komodo
 *.komodoproject
 .komodotools
