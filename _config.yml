@@ -19,4 +19,4 @@ collections:
 sass:
   sass_dir: assets/_sass
 destination: "./build"
-baseurl: 
+baseurl: "/culture-namer"
