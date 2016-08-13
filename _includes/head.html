@@ -27,7 +27,7 @@
 <script>
    var ships = [];
    {% for ship in site.ships %}
-      ships.push("{{ site.baseurl }}/{{ ship.url }}");
+      ships.push("{{ site.baseurl }}{{ ship.url }}");
    {% endfor %}
   window.onload = function() {
     $('#random').click(function() {
