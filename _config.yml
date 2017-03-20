@@ -1,6 +1,6 @@
 
 # Info
-title: Vue❤Jekyll
+title: Lorem Ipsum
 twitter: "http://twitter.com/bryanschuetz"
 github: "http://github.com/bryanschuetz"
 baseurl: ""
@@ -12,6 +12,10 @@ collections:
     title: Posts
     output: true
     permalink: "/news/:title"
+  ships:
+    title: ships
+    output: true
+    permalink: "/ships/:title"
 
 # Settings
 markdown: kramdown

@@ -7,11 +7,11 @@ import App from '../components/app.vue'
 // 🎌 GOOGLE FONTS, CAUSE TYPOGRAPHY 🎌
 WebFont.load({
  google: {
-   families: ['Alegreya:400,italic,700,900']
+   families: ['Ubuntu Mono:400,italic,700']
  }
 });
 
-var app = new Vue({
-  el: '#content',
-  render: h => h(App)
-})
+// var app = new Vue({
+//   el: '#content',
+//   render: h => h(App)
+// })

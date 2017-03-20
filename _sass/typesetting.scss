@@ -22,12 +22,12 @@ html{
   &.wf-active{
     opacity: 1;
     display: block;
-    font-family: 'Alegreya', 'Georgia', serif;
+    font-family: 'Ubuntu Mono', 'Helvetica', 'Arial' serif;
   }
   &.wf-inactive, &.wf-fontinactive{
     opacity: 1;
     display: block;
-    font-family: 'Georgia', serif;
+    font-family: 'Helvetica', 'Arial', serif;
   }
 }
 
@@ -37,6 +37,7 @@ body {
   line-height: 1.45;
   color: $black;
   font-size: 1rem;
+  font-family: 'Ubuntu Mono', 'Helvetica', 'Arial' serif;
 }
 
 p {
@@ -52,6 +53,10 @@ h1, h2, h3, h4 {
 h1 {
   margin-top: 0;
   font-size: 5.063rem;
+}
+h1.slim-title{
+  font-size: 2.25rem;
+  text-align: left;
 }
 
 h2 {
