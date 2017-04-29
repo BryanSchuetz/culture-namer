@@ -11,18 +11,18 @@
   @include responsive(medium-screens){
     @include width(8);
   }
-  @include responsive(wide-screens){
-    @include width(10);
-  }
-  @include responsive(ultra-wide-screens){
-    @include width(12);
-  }
-  @include responsive(extra-ultra-wide-screens){
-    @include width(14);   
-  }
-  @include responsive(extra-extra-ultra-wide-screens){
-    @include width(16);   
-  }
+  // @include responsive(wide-screens){
+  //   @include width(10);
+  // }
+  // @include responsive(ultra-wide-screens){
+  //   @include width(12);
+  // }
+  // @include responsive(extra-ultra-wide-screens){
+  //   @include width(14);   
+  // }
+  // @include responsive(extra-extra-ultra-wide-screens){
+  //   @include width(16);   
+  // }
 }
 
 // 🎌 FULL VIEWPORT 🎌
@@ -73,14 +73,26 @@ button{
   padding: .1rem;
 }
 footer{
-  margin-top: 15rem;
-  .footer-inner p{
-    text-align: center;
-  }
+  margin-top: 9rem;
 }
 .environment{
   text-align: center;
   margin-top: 5rem;
+}
+
+.typewriter{
+  display: inline-block;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 3.5s steps(40, end);
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
 .cursor{
   font-weight: 900;
@@ -119,13 +131,63 @@ footer{
   -webkit-animation-name: flash;
   animation-name: flash;
 }
-span.title{
-  white-space: nowrap;
-  overflow: hidden;
-  width: 100%;
-  animation: type 4s steps(60, end); 
-  display: inline-block;
+.note{
+  padding: 4px 4px 6px 6px;
+  background-color: $orange;
+  border-radius: 3px;
+  margin-right: 3px;
+  color: white;
 }
-@keyframes type{ 
-  from { width: 0; } 
-} 
+
+// 🎌 Button 🎌
+.button{
+  text-align: center;
+}
+.btn {
+    display: inline-block;
+    border: none;
+    border-radius: .3em;
+    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.1),
+                inset 0 -.25em 0 hsla(0,0%,0%,.25),
+                0 .25em .25em hsla(0,0%,0%,.05);
+    color: #fff;
+    cursor: pointer;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    padding: .5em 1.5em .75em;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 1px 1px hsla(0,0%,100%,.25);
+    vertical-align: middle;
+    user-select: none;
+
+    &:active {
+      box-shadow: inset 0 0 0 1px hsla(0, 0%, 0%, .2),
+                  inset 0 2px 0 hsla(0, 0%, 100%, .1),
+                  inset 0 .25em .5em hsla(0, 0%, 0%, .05);
+      margin-top: .25em;
+      padding-bottom: .5em;
+    }
+
+    &:active,
+    &:focus {
+      outline: none;
+    }
+}
+a.btn, a.btn:hover, a.btn:visited{
+  color: white;
+}
+
+// Colors
+// -----------
+
+.btn--green {
+  background-color: $vuegreen;
+}
+
+// Sizes
+// -----------
+.btn--lg {
+  font-size: 1.50em;
+}

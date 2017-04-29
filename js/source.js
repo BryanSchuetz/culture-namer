@@ -3,15 +3,30 @@ import Vue from 'vue'
 import WebFont from 'webfontloader'
 import Marked from 'marked'
 import App from '../components/app.vue'
+import Ship from '../components/ship.vue'
+import VueRouter from 'vue-router'
+Vue.use(VueRouter)
+
+const routes = [
+  {
+    path: '/ship/:name', component: Ship 
+  }
+]
+const router = new VueRouter({
+  mode: 'history',
+  routes 
+})
 
 // 🎌 GOOGLE FONTS, CAUSE TYPOGRAPHY 🎌
 WebFont.load({
  google: {
-   families: ['Ubuntu Mono:400,italic,700']
+   families: ['Ubuntu Condensed:400', 'Ubuntu:400,italic,700']
  }
 });
 
+
 // var app = new Vue({
+//   router,
 //   el: '#content',
 //   render: h => h(App)
 // })

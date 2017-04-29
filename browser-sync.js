@@ -5,6 +5,7 @@ module.exports = {
   "files": "build",
   "open": false,
   "notify": false,
+  "reloadDebounce": 2000,
   "serveStatic": [
     'build'
   ],

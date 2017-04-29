@@ -5,7 +5,7 @@
   {% include gridly.html %}
   <header>
     <div class="header-inner">
-      <h1 class="slim-title"><span class="title"><span class="cursor animated infinite flash">|</span>Lorem Ipsum</span></h1>
+      <h1 class="slim-title typewriter"><span class="cursor animated infinite flash">|</span>Culture Ship Randomizer</h1>
     </div>
   </header>
   <div class="main">
@@ -13,7 +13,8 @@
   </div>
   <footer>
     <div class="footer-inner">
-      <p>Made, with ❤ in D.C.</p>
+      <hr><br>
+      {{ site.data.app.colophon | markdownify }}
     </div>
   </footer>
   <script src="{{ site.baseurl }}/js/bundle.js"></script>

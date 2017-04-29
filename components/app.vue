@@ -1,6 +1,7 @@
 <template>
   <div class="copy">
-  
+    This is the Vue bit.
+    <router-view></router-view>
   </div>
 </template>
 
@@ -20,6 +21,9 @@ export default {
   computed: {
   },
   methods: {
+    shipit(){
+      this.$router.push('/ship/little-gravitas')
+    } 
   }
 }
 </script>

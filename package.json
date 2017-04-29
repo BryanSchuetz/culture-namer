@@ -28,6 +28,7 @@
     "marked": "^0.3.6",
     "vue": "^2.2.1",
     "vue-loader": "^11.1.4",
+    "vue-router": "^2.3.1",
     "vue-template-compiler": "^2.2.2",
     "webfontloader": "^1.6.27",
     "webpack": "^2.2.1"
