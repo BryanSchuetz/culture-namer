@@ -1,9 +1,18 @@
 ---
 layout: default
 ---
+{% comment %}Connect up data from the stores for books and shiptypes{% endcomment %}
+{% assign type = site.data.ship-types | where_exp: "type", "type.type == page.type-abrev" %}
+{% assign book = site.data.books | where_exp: "book", "book.name == page.book" %}
+{% comment %}Without JS, we'll just go in order{% endcomment %}
+{% assign ships = site.ships | sort:"title" %}
+{% assign index = page.index | plus: 1 %}
+{% assign ship = ships[index] %}
 <div class="main-inner index">
   <div id="content">
     <h3 class="ship-name">{{ page.name }}</h3>
-    <p>This ship first appeared in the book {{ page.book }}.</p>
+    <p>This ship first appeared in the book <a href="{{ book[0].booklink }}">{{ page.book }}</a>—the ship is a <strong>{{ page.type-long }} ({{ page.type-abrev }})</strong>. {{ type[0].description }}</p>
+    {{ content }}
+    <div class="button"><a href="{{ ship.url }}" class="btn btn--lg btn--green">Pick a Random Ship</a></div> 
   </div>
 </div>

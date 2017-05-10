@@ -4,7 +4,7 @@ import WebFont from 'webfontloader'
 import Marked from 'marked'
 import App from '../components/app.vue'
 import Ship from '../components/ship.vue'
-import VueRouter from 'vue-router'
+import VueRouter from 'vue-router' 
 Vue.use(VueRouter)
 
 const routes = [
@@ -25,8 +25,8 @@ WebFont.load({
 });
 
 
-// var app = new Vue({
-//   router,
-//   el: '#content',
-//   render: h => h(App)
-// })
+var app = new Vue({
+  router,
+  el: '#content',
+  render: h => h(App),
+})

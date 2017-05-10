@@ -5,5 +5,6 @@ name: Prosthetic Conscience
 type-abrev: GCU
 type-long: General Contact Unit
 book: Consider Phlebas
+index: 26
 ---
 

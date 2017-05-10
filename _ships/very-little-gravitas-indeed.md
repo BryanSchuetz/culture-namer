@@ -5,5 +5,6 @@ type-abrev: GCU
 type-long: General Contact Unit
 book: Use of Weapons
 layout: ship
+index: 37
 ---
 

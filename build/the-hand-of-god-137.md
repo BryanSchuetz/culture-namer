@@ -1,1 +1,0 @@
-the-hand-of-god-137.md

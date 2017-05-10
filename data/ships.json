@@ -1,0 +1,13 @@
+---
+title: siteData
+---
+{% for ship in site.ships %}
+    {
+      "name"    : "{{ ship.title }}",
+      "url"     : "{{ ship.url }}",
+      "content"  : "{{ ship.content }}",
+      "type-abrev": "{{ ship.type-abrev }}",
+      "type-long": "{{ ship.type-long }}",
+      "book": "{{ ship.book }}"
+    } {% if forloop.last %}{% else %},{% endif %}
+{% endfor %} 

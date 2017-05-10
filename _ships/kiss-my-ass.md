@@ -5,5 +5,6 @@ name: Kiss My Ass
 type-abrev: SL
 type-long: Super Lifter
 book: The Player of Games
+index: 13
 ---
 

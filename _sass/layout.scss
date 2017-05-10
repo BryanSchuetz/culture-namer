@@ -34,6 +34,9 @@ header{
     color: $vueblue;
   }
 }
+.without-style{
+  text-decoration: none;
+}
 .benefits{
   @include width(4);
     margin: auto;
@@ -73,7 +76,7 @@ button{
   padding: .1rem;
 }
 footer{
-  margin-top: 9rem;
+  margin-top: 4rem;
 }
 .environment{
   text-align: center;
