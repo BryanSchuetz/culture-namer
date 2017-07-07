@@ -8,4 +8,4 @@ This site makes picking a name at random a little bit easier, and a little more 
 
 Note: This site also builds a simple [ruby script](https://culture-namer.surge.sh/gravitas.rb) to randomly pick ship names from the command line.
 
-![screenshot](screenshot.png)
+![screenshot](newshot.png)
