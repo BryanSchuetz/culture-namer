@@ -1,0 +1,40 @@
+[{
+  "type": "GSV",
+  "description": "GSVs are mobile habitats and / or factory ships, they are the largest Culture ship type. They may be home to billions of people."
+  },{
+  "type": "MSV",
+  "description": "MSVs are smaller versions of General Systems Vehicles. Sometimes former GSVs were downgraded as larger GSV classes were developed."
+  },{
+  "type": "LSV",
+  "description": "LSVs are smaller versions of Medium Systems Vehicles. Sometimes GSVs or MSVs were downgraded as larger GSV classes were developed."
+  },{
+  "type": "GCV",
+  "description": "GCVs are larger more capable Contact craft, between the sie of a GCU and Systems Vehicle. GCVs typically act as ambassadors, scouts and light transports; also main warships in peacetime."
+  },{
+  "type": "GCU",
+  "description": "GCUs are ambassadors, scouts and light transports; also main warships in peacetime."
+  },{
+  "type": "LCU",
+  "description": "LCUs are smaller versions of General Contact Units."
+  },{
+  "type": "GOU",
+  "description": "GOUs are dedicated main warships."
+  },{
+  "type": "ROU",
+  "description": "ROUs are dedicated fast warships."
+  },{
+  "type": "LOU",
+  "description": "LOUs are Dedicated warships, smaller than General Offensive Units."
+  },{
+  "type": "VFP",
+  "description": "VFP is a euphemism for a demilitarized Rapid Offensive Unit used in the same role."
+  },{
+  "type": "PS",
+  "description": "PS is a euphemism for a warship, offensive unit or ex-offensive unit."
+  },{
+  "type": "HL",
+  "description": "HLs are dedicated materials movers, smaller than General Contact Units."
+  },{
+  "type": "SL",
+  "description": "SLs are transport craft or tugs, a relatively small craft but powerful for its size, described as taking primary a military role in early days of the Idiran-Culture War before activation of Culture warship manufacture."
+  }]

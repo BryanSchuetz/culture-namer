@@ -1,17 +1,11 @@
-## Static, meet dynamic.
+# Culture Ship Randomizer
 
-**Demo: https://vue-jekyll.surge.sh**
+## Pick a Culture ship at random
 
-[This Repo](https://github.com/BryanSchuetz/vue-jekyll) is a bare-bones template for building static sites that leverage a client-side JS framework for dynamic functionality. It uses [NPM](https://www.npmjs.com/), [Webpack](https://webpack.js.org), [Vue](https://vuejs.org), and [Jekyll](https://jekyllrb.com). It uses **NPM (and Bundler)** to manage the project's dependencies, and improve the development workflow. It uses **Webpack** to roll up and transpile all the individual modules and components into a single bundeled JS file. It uses **Jekyll** to bring it all together, build the site, and serve an initial static file to the browser. It uses **Vue** to render pages on the client side (if JS is supported), and provide any additional dynamic functionality that may be needed.
+I often use [Culture](http://en.wikipedia.org/wiki/Culture_series") ship names when having to identify random electronic / digital bits at work or home—iPhones, servers, databases, directories, sometimes even methods or functions. 
 
-## The best of both worlds.
+This site makes picking a name at random a little bit easier, and a little more fun. It was also an excuse to teach myself how to use [Jekyll](http://jekyllrb.com) with [Vue](vuejs.org) to create an [isomorphicish](http://distresssignal.org/vue-and-jekyll) type site that uses the same data to render views for both the server and the client as appropriate (wheter JS is enabled or not). Enjoy.
 
-Take the best parts of a static site workflow and combine them with the new hotness of a client side framework. What you end up with is a great new way to publish content on the modern web. Isomorphic blah blah blah: Use Jekyll to publish the site's pages, and the JSON data behind them—use Vue to build the same pages with the same data. Serve the first static page to the user—if JS is supported, just send the JSON down the wire and build the rest of the pages/content with Vue. If there's no JS support, continue to send pre-rendered static pages down the wire.
+Note: This site also builds a simple [ruby script](https://culture-namer.surge.sh/gravitas.rb) to randomly pick ship names from the command line.
 
-## Setup
-
-* Clone the Repo
-* `npm install`
-* `bundle install`
-* `npm run jekyllfy`
-
+![screenshot](screenshot.png)

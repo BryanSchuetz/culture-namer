@@ -1,7 +1,7 @@
 ---
-title: Lasting Damage
+title: Lasting Damage Zero
 layout: ship
-name: Lasting Damage
+name: Lasting Damage Zero
 type-abrev: GSV
 type-long: General Systems Vehicle
 book: Look to Winward

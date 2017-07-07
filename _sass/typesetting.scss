@@ -1,5 +1,6 @@
 // 🎌 ADAPTIVE REM BASED SIZING 🎌
 html{
+  font-family: 'Helvetica', 'Arial', serif;
   font-size: 14px;
   opacity: 1;
   @include responsive(medium-screens){
@@ -38,12 +39,10 @@ body {
   line-height: 1.45;
   color: $black;
   font-size: 1rem;
-  font-family: 'Ubuntu Condensed', 'Helvetica', 'Arial' serif;
 }
 
 p {
   margin-bottom: 1.3rem;
-  font-family: 'Ubuntu','Georgia', 'serif';
 }
 
 h1, h2, h3, h4 {
@@ -57,13 +56,13 @@ h1 {
   font-size: 5.063rem;
 }
 h1.slim-title{
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: left;
   @include responsive(small-screens){
-    font-size: 2.9rem;
+    font-size: 2.2rem;
   }
   @include responsive(medium-screens){
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 

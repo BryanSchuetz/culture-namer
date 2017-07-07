@@ -1,13 +1,11 @@
 ---
-title: siteData
+title: shipData
 ---
-{% for ship in site.ships %}
-    {
-      "name"    : "{{ ship.title }}",
-      "url"     : "{{ ship.url }}",
-      "content"  : "{{ ship.content }}",
-      "type-abrev": "{{ ship.type-abrev }}",
-      "type-long": "{{ ship.type-long }}",
-      "book": "{{ ship.book }}"
-    } {% if forloop.last %}{% else %},{% endif %}
-{% endfor %} 
+[{% for ship in site.ships %}{
+  "name": "{{ ship.title }}",
+  "url": "{{ ship.url }}",
+  "content": "{{ ship.content | strip_html | strip_newlines | remove:"Note: " | remove:'"'}}",
+  "typeAbrev": "{{ ship.type-abrev }}",
+  "typeLong": "{{ ship.type-long }}",
+  "book": "{{ ship.book }}"
+  }{% unless forloop.last %},{% endunless %}{% endfor %}]
