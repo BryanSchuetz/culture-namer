@@ -22,7 +22,6 @@ export default {
     }
   },
   created(){
-    axios.get('/data/data.json').then(response => this.siteData = response.data);
     axios.get('/data/ships.json').then(response => this.shipData = response.data);
     axios.get('/data/books.json').then(response => this.bookData = response.data);
     axios.get('/data/ship-types.json').then(response => this.shipTypeData = response.data);

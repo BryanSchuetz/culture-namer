@@ -13,7 +13,7 @@ export default {
     return {
     }
   },
-  mounted(){
+  created(){
   },
     filters: {
   },

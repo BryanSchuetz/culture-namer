@@ -14858,7 +14858,7 @@ exports.default = {
   data: function data() {
     return {};
   },
-  mounted: function mounted() {},
+  created: function created() {},
 
   filters: {},
   computed: {},
@@ -14971,9 +14971,6 @@ exports.default = {
   created: function created() {
     var _this = this;
 
-    _axios2.default.get('/data/data.json').then(function (response) {
-      return _this.siteData = response.data;
-    });
     _axios2.default.get('/data/ships.json').then(function (response) {
       return _this.shipData = response.data;
     });

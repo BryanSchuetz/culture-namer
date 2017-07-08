@@ -4,4 +4,4 @@ callToAction: Pick a Culture Ship
 description: |
   I often use [Culture](http://en.wikipedia.org/wiki/Culture_series) ship names when having to identify random electronic / digital bits at work or home—iPhones, servers, databases, directories, users, etc. This site makes picking a name at random a little bit easier, and a little more fun. It was also an excuse to teach myself how to [create an isomorphic(ish) site using Vue and Jekyll](http://distresssignal.org/vue-and-jekyll). Enjoy.
 note: This site also builds a simple [ruby script](/gravitas.rb) to randomly pick ship names from the command line.
-colophon: Built with [Jekyll](http://jekyllrb.com), [Vue](vuejs.org), and [Github](http://github.com). Only includes ships from books I've already read—<span class="note">spoilers</span>. Have a look at [the repo]().
+colophon: Built with [Jekyll](http://jekyllrb.com), [Vue](vuejs.org), and [Github](http://github.com). Only includes ships from books I've already read—<span class="note">spoilers</span>. Have a look at [the repo](https://github.com/BryanSchuetz/culture-namer).
