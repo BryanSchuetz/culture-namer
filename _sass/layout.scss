@@ -194,3 +194,14 @@ a.btn, a.btn:hover, a.btn:visited{
 .btn--lg {
   font-size: 1.50em;
 }
+
+.fade-enter-active {
+  transition: opacity .2s;
+  transition-delay: .1s;
+}
+.fade-leave-active{
+ transition: opacity .1s; 
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+  opacity: 0;
+}

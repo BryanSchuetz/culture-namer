@@ -14852,6 +14852,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
+//
+//
 
 
 exports.default = {
@@ -17032,7 +17034,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
           "href": book.url
         }
       }, [_vm._v(_vm._s(ship.book))]) : _vm._e()
-    }), _vm._v("—the ship is a " + _vm._s(ship.typeLong) + " (" + _vm._s(ship.typeAbrev) + "). "), _vm._l((_vm.shipTypeData), function(type) {
+    }), _vm._v("—the ship is a "), _c('strong', [_vm._v(_vm._s(ship.typeLong) + " (" + _vm._s(ship.typeAbrev) + ")")]), _vm._v(". "), _vm._l((_vm.shipTypeData), function(type) {
       return (ship.typeAbrev === type.type) ? _c('span', [_vm._v(_vm._s(type.description))]) : _vm._e()
     })], 2), _vm._v(" "), (ship.content.length > 0) ? _c('p', [_c('span', {
       staticClass: "note"
@@ -17095,7 +17097,11 @@ if (false) {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "copy"
-  }, [_c('router-view')], 1)
+  }, [_c('transition', {
+    attrs: {
+      "name": "fade"
+    }
+  }, [_c('router-view')], 1)], 1)
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
