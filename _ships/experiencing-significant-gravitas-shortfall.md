@@ -4,7 +4,7 @@ layout: ship
 name: Experiencing a Significant Gravitas Shortfall
 type-abrev: GSV
 type-long: General Systems Vehicle
-book: Look to Winward
+book: Look to Windward
 index: 6
 ---
 
