@@ -4,8 +4,6 @@ layout: ship
 name: Sanctioned Parts List
 type-abrev: GSV
 type-long: General Systems Vehicle
-book: Look to Winward
+book: Look to Windward
 index: 29
 ---
-
-<span class="note">Note:</span> Part of the long running "Gravitas" gag. Also mentioned in <em>Matter</em>.
